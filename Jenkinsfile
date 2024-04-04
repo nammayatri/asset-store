@@ -1,4 +1,4 @@
-def allowedBranches = ["main", "jenkins"]
+def allowedBranches = ["main"]
 
 def uploadedFiles = ""
 
