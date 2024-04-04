@@ -50,7 +50,8 @@ check_if_png_is_valid()
 invalidate_asset()
 {
   s3_path="$1"
-  npm run cdn:invalidate $s3_path --prefix node_modules/release-scripts
+  aws cloudfront create-invalidation --distribution-id $distributionId --paths $s3_path
+  printf "invalidated $s3_path"
 }
 
 push_asset() {
@@ -64,18 +65,19 @@ push_asset() {
 
   printf "Pushing $local_path to $s3_path ...\n\n"
 
-  npm run s3:uploadFile $local_path $s3_path --prefix node_modules/release-scripts -- --public --titan # TODO :: create promise for api call to S3
+  aws s3 cp $local_path $s3_path
 }
 
 asset=""
-bucket=jp-remote-assets  # TODO : set PROD bucket 
+bucket="beckn-frontend-assets"  # TODO : PROD bucket 
+distributionId="EZCA94ADQWCV1" 
 force_push=false
 
 if [ $(echo $@ | sed "s/--[a-zA-Z]*-*[a-zA-Z]*//g" | tr -d '[:space:]' | wc -c) -ne 0 ]
 then asset=$(echo $@ | sed "s/--[a-zA-Z]*-*[a-zA-Z]*//g" | tr -d '[:space:]'); fi
 
 if [[ "$@" =~ --sandbox ]]                  
-then bucket="beta-hyper-sdk-assets"; fi    # TODO :: set sandbox bucket (optional)
+then bucket="beckn-frontend-assets"; fi    # TODO :: sandbox bucket (optional)
 
 echo -------------- s3 push starting -------------------
 
@@ -123,5 +125,5 @@ then
 
   pathToPush="s3://$bucket/$asset"
   push_asset $local_path $pathToPush
-  invalidate_asset $pathToPush
+  # invalidate_asset $local_path
 fi
