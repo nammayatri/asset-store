@@ -125,5 +125,5 @@ then
 
   pathToPush="s3://$bucket/$asset"
   push_asset $local_path $pathToPush
-  invalidate_asset $local_path
+  # invalidate_asset $local_path
 fi
