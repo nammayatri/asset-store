@@ -1,0 +1,33 @@
+name: Handle Incoming Changes
+
+on:
+  repository_dispatch:
+    types: [trigger_workflow]
+
+jobs:
+  handle_changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.client_payload.branch }}
+
+      - name: Create Pull Request
+        run: |
+          # Set variables
+          REPO_OWNER=${{ github.repository_owner }}
+          REPO_NAME=${{ github.event.repository.name }}
+          BASE_BRANCH=main
+          HEAD_BRANCH=${{ github.event.client_payload.branch }}
+          TITLE="Merge ${HEAD_BRANCH} into ${BASE_BRANCH}"
+          BODY="Created by GitHub action"
+          TOKEN=${{ secrets.PAT_TOKEN }}
+  
+          # Create pull request using curl
+          curl -X POST \
+            -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/pulls \
+            -d "{\"title\":\"$TITLE\",\"body\":\"$BODY\",\"head\":\"${HEAD_BRANCH}\",\"base\":\"${BASE_BRANCH}\"}"
