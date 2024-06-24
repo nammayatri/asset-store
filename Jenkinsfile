@@ -62,6 +62,8 @@ pipeline {
                       contentType = "application/json"
                     } else if (file ==~ '.*\\.svg$') {
                       contentType = "image/svg+xml"
+                    } else if (file ==~ '.*\\.jsa$') {
+                      contentType = "binary/octet-stream"
                     }
                      else {
                       continue
