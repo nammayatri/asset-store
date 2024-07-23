@@ -23,7 +23,7 @@ jobs:
           HEAD_BRANCH=${{ github.event.client_payload.branch }}
           TITLE="Merge ${HEAD_BRANCH} into ${BASE_BRANCH}"
           BODY="Created by GitHub action"
-          TOKEN=${{ secrets.PAT_TOKEN }}
+          TOKEN=${{ secrets.NAMMA_BOT_TOKEN }}
   
           # Create pull request using curl
           curl -X POST \
