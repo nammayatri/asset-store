@@ -335,6 +335,7 @@
       "ny_ic_empty_search_hyderabad" : true,
       "ny_ic_empty_search_kochi" : true,
       "ny_ic_empty_search_kolkata" : true,
+      "ny_ic_empty_search_siliguri" : true,
       "ny_ic_empty_search_mysore" : true,
       "ny_ic_empty_search_tumakuru" : true,
       "ny_ic_empty_suggestions" : true,
@@ -526,6 +527,7 @@
       "ny_ic_safety_shield" : true,
       "ny_ic_sd" : true,
       "ny_ic_sedan_ac_side" : true,
+      "ny_ic_hatchback_ac_side" : true,
       "ny_ic_sedan_concept" : true,
       "ny_ic_sedan_concept_quote_list" : true,
       "ny_ic_sedan_left_view" : true,
@@ -663,6 +665,12 @@
       "silent_popup_background" : true,
       "tip_banner_rectangle" : true,
       "widget_close_gradient" : true,
-      "zone_curve" : true
+      "zone_curve" : true,
+      "ny_ic_location_permission_logo" : true,
+      "ys_ic_driver_message" : true,
+      "ny_ic_suv_plus_side" : true,
+      "ny_ic_suv_plus_left_side" : true,
+      "ny_ic_suv_plus_concept" : true,
+      "ny_ic_suv_plus_nav_on_map" : true
    }
 }
