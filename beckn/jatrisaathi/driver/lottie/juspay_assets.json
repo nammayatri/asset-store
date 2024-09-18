@@ -720,6 +720,9 @@
       "zone_curve" : true,
       "ny_ic_money_outline" : true,
       "ic_phone_filled_green" : true,
-      "ic_phone_filled_red" : true
+      "ic_phone_filled_red" : true,
+      "ys_ic_asansol_map" : true,
+      "ys_ic_durgapur_map" : true,
+      "ys_ic_petrapole_map" : true
    }
 }
