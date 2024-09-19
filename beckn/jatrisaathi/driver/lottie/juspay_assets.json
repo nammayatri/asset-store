@@ -723,6 +723,10 @@
       "ic_phone_filled_red" : true,
       "ys_ic_asansol_map" : true,
       "ys_ic_durgapur_map" : true,
-      "ys_ic_petrapole_map" : true
+      "ys_ic_petrapole_map" : true,
+      "ny_ic_parcel_box" : true,
+      "ny_ic_bike_delivery_concept" : true,
+      "ny_ic_dest_dot" : true,
+      "ny_ic_bike_delivery_nav_on_map" : true
    }
 }
