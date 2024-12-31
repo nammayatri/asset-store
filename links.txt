@@ -1,0 +1,5 @@
+https://assets.moving.tech/beckn/banners/buttons/blueWatchNowEN.png
+https://assets.moving.tech/beckn/banners/buttons/blueWatchNowKN.png
+https://assets.moving.tech/beckn/banners/carouselBanners/offerEndSoon.png
+https://assets.moving.tech/beckn/banners/carouselBanners/pointsMela.png
+https://assets.moving.tech/beckn/banners/carouselBanners/noBikeTaxi.png
