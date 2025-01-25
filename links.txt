@@ -3,3 +3,4 @@ https://assets.moving.tech/beckn/banners/buttons/blueWatchNowKN.png
 https://assets.moving.tech/beckn/banners/carouselBanners/offerEndSoon.png
 https://assets.moving.tech/beckn/banners/carouselBanners/pointsMela.png
 https://assets.moving.tech/beckn/banners/carouselBanners/noBikeTaxi.png
+https://assets.moving.tech/beckn/lotties/ny_republicday_lottie2025.png
