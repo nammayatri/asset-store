@@ -66,6 +66,8 @@ pipeline {
                       contentType = "binary/octet-stream"
                     } else if (file ==~ '.*\\.pdf$') {
                       contentType = "application/pdf"
+                    } else if (file ==~ '.*\\.html$') {
+                      contentType = "text/html"
                     } else {
                       continue
                     }
