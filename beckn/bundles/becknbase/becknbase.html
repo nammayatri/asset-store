@@ -1,7 +1,9 @@
 <html>
+
 <head>
     <title>MOBILITY-RELEASE</title>
 </head>
+
 <body>
 </body>
 <script type="text/javascript">
@@ -9,7 +11,7 @@
     window.JBridge = top.JBridge;
     window.Android = top.Android;
     window.DUIGatekeeper = JBridge;
-    window.JBridge.setAnalyticsHeader(JSON.stringify({"x-client-id": "mobility"}));
+        window.JBridge.setAnalyticsHeader(JSON.stringify({ "x-client-id": "mobility" }));
 
     const sessionInfo = JSON.parse(JBridge.getDeviceInfo())
     const enableLogs = JBridge.fetchRemoteConfigBool && JBridge.fetchRemoteConfigBool("enable_logs")
@@ -23,14 +25,13 @@
 
 <script type="text/javascript">
     let assets_downloader = false;
-     if (JBridge.fetchRemoteConfigString) {
-         try {
-            console.error(JSON.parse(JBridge.fetchRemoteConfigString("asset_downloader_config")))
-            assets_downloader =  JSON.parse(JBridge.fetchRemoteConfigString("asset_downloader_config")).enableAssetDonwloader;
-         } catch (e) {
+        if (JBridge.fetchRemoteConfigString) {
+            try {
+            assets_downloader = JSON.parse(JBridge.fetchRemoteConfigString("asset_downloader_config")).enableAssetDonwloader;
+        } catch (e) {
             console.error(e)
-         }
-     };
+                }
+            };
     let headID = document.getElementsByTagName("head")[0];
     window.prevTimeStamp = Date.now();
     window.assetDownloadDuration = Date.now();
@@ -42,4 +43,5 @@
     headID.appendChild(newScript);
 
 </script>
+
 </html>
