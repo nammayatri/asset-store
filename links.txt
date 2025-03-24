@@ -9,6 +9,9 @@ https://assets.moving.tech/beckn/lotties/ny_republicday_lottie2025.json
 https://assets.moving.tech/beckn/common/driver/images/ny_ic_local_asset.png
 https://assets.moving.tech/beckn/common/driver/images/ny_ic_local_asset.png
 https://assets.moving.tech/beckn/audios/rideAssigned/tamilRideAssigned.mp3
+https://assets.moving.tech/beckn/audios/rideAssigned/tamilRideAssignedNew.mp3
+https://assets.moving.tech/beckn/audios/rideAssigned/hindiCabPickup.mp3
+https://assets.moving.tech/beckn/audios/rideAssigned/hindiExtraPrice.mp3
 https://assets.moving.tech/beckn/audios/rideAssigned/tamilOutstationRide.mp3
 https://assets.moving.tech/beckn/audios/rideAssigned/tamilRentalRide.mp3
 
