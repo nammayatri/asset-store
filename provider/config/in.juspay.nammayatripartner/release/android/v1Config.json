@@ -1,0 +1,3638 @@
+{
+    "RC_VALIDATION_TEXT": "KA|AP|TS|DL|TN|PY|UP|HR|TG",
+    "DOCUMENT_LINK": "https://docs.google.com/document/d/1uL6CzKl_rt1ZSngcAOiafnTaI7Q4vO_6Ja9NHvYX3RU",
+    "APP_LINK": "https://play.google.com/store/apps/details?id=in.juspay.nammayatripartner",
+    "USER_APP_LINK": "https://nammayatri.in/link/rider/mvnw",
+    "PRIVACY_POLICY_LINK": "https://docs.google.com/document/d/1N3ZJVwilWO9cIGFJXgl8h8au7lpdRyhXNMZJ8OXq4YY",
+    "SPECIAL_ZONE_OTP_VIEW": "false",
+    "StringKeys": [
+        "NEED_IT_TO_ENABLE_LOCATION",
+        "CURRENTLY_WE_ALLOW_ONLY_KARNATAKA_REGISTERED_NUMBER",
+        "YOU_ARE_ABOUT_TO_CALL_NAMMA_YATRI_SUPPORT",
+        "YOUR_LOCATION_HELPS_OUR_SYSTEM",
+        "WHAT_IS_NAMMA_YATRI_BONUS",
+        "EARNED_ON_APP",
+        "TRAVELLED_ON_APP",
+        "GUARANTEED_FIXED_PRICE",
+        "GET_READY_FOR_YS_SUBSCRIPTION"
+    ],
+    "fontType": "Assets",
+    "currency": "₹",
+    "isGradient": "false",
+    "gradient": [],
+    "addFavouriteScreenBackArrow": "ny_ic_chevron_left_white,https://assets.juspay.in/nammayatri/images/user/ny_ic_chevron_left_white.png",
+    "popupBackground": "#FFFFFF",
+    "apiLoaderLottie": "primary_button_loader.json",
+    "primaryTextColor": "#FCC32C",
+    "primaryBackground": "#2C2F3A",
+    "showCorporateAddress": true,
+    "showRegisteredAddress": true,
+    "imageUploadOptional": false,
+    "BONUS_EARNED": "true",
+    "clientName": "Namma Yatri",
+    "languageList": [
+        { "name": "English", "value": "EN_US", "subtitle": "ಆಂಗ್ಲ" },
+        { "name": "ಕನ್ನಡ", "value": "KN_IN", "subtitle": "Kannada" },
+        { "name": "हिंदी", "value": "HI_IN", "subtitle": "Hindi" },
+        { "name": "தமிழ்", "value": "TA_IN", "subtitle": "Tamil" },
+        { "name": "తెలుగు", "value": "TE_IN", "subtitle": "Telugu" }
+    ],
+    "engilshInNative": "ಆಂಗ್ಲ",
+    "logs": ["JUSPAY", "FIREBASE", "CLEVERTAP"],
+    "fontName": "PlusJakartaSans",
+    "fontKannada": "NotoSansKannada",
+    "allowAllMobileNumber": false,
+    "acExplanation": true,
+    "rcLimit": 3,
+    "rateCardScreen": {
+        "showYoutubeVideo": false,
+        "showRateCard": true
+    },
+    "showGenderBanner": true,
+    "defaultLanguage": "EN_US",
+    "OTP_MESSAGE_REGEX": "is your OTP for login to [A-Za-z]+ [A-Za-z]+ [A-Za-z]+",
+    "leaderBoard": {
+        "isMaskedName": false
+    },
+    "subscriptionConfig": {
+        "enableBlocking": true,
+        "onBoardingSubscription": true,
+        "showDUOfferBanner": true,
+        "offerBannerValidTill": "2024-01-01T00:00:00",
+        "offerBannerDeadline": "December 31-*$*-ಡಿಸೆಂಬರ್ 31-*$*-31 दिसंबर-*$*-டிசம்பர் 31",
+        "offerBannerConfig": {
+            "showDUOfferBanner": true,
+            "offerBannerValidTill": "2025-01-01T00:00:00",
+            "offerBannerDeadline": "January 1-*$*-ಜನವರಿ 1-*$*-1 जनवरी-*$*-ஜனவரி 1",
+            "offerBannerPlans": ["a35ffc7c-de0d-4dcc-83a8-e36a5a29cc1d"]
+        },
+        "highDueWarningLimit": 75.0,
+        "moveDriverToOfflineInHighDueDaily": true,
+        "enableSubscriptionPopups": true,
+        "faqLink": "https://nammayatri.in/plans/",
+        "supportNumber": "08069724919",
+        "whatsappSupportLink": "https://wa.me/917483117936?text=Hello%2C%20I%20need%20help%20with%20setting%20up%20Autopay%20Subscription%0A%E0%B2%B8%E0%B3%8D%E0%B2%B5%E0%B2%AF%E0%B2%82%20%E0%B2%AA%E0%B2%BE%E0%B2%B5%E0%B2%A4%E0%B2%BF%20%E0%B2%9A%E0%B2%82%E0%B2%A6%E0%B2%BE%E0%B2%A6%E0%B2%BE%E0%B2%B0%E0%B2%BF%E0%B2%95%E0%B3%86%E0%B2%AF%E0%B2%A8%E0%B3%8D%E0%B2%A8%E0%B3%81%20%E0%B2%B9%E0%B3%8A%E0%B2%82%E0%B2%A6%E0%B2%BF%E0%B2%B8%E0%B2%B2%E0%B3%81%20%E0%B2%A8%E0%B2%A8%E0%B2%97%E0%B3%86%20%E0%B2%B8%E0%B2%B9%E0%B2%BE%E0%B2%AF%E0%B2%A6%20%E0%B2%85%E0%B2%97%E0%B2%A4%E0%B3%8D%E0%B2%AF%E0%B2%B5%E0%B2%BF%E0%B2%A6%E0%B3%86",
+        "myPlanYoutubeLink": "https://www.youtube.com/playlist?list=PL4AEiRR3V7kHcg2-fgzvDXDqWihZD9mTK",
+        "overlayYoutubeLink": "https://www.youtube.com/shorts/x9cJN78j9V8",
+        "optionsMenuItems": {
+            "managePlan": true,
+            "paymentHistory": true,
+            "viewFaqs": true
+        }
+    },
+    "rideActionModelConfig": {
+        "showVehicleVariant": false
+    },
+    "referralType": "LeaderBoard",
+    "referral": {
+        "type": "LeaderBoard",
+        "link": "https://nammayatri.in/link/rider/mvnw",
+        "domain" : "https://nammayatri.in", 
+        "customerAppId" : "in.juspay.nammayatri", 
+        "driverAppId" : "in.juspay.nammayatripartner"
+
+    },
+    "gotoConfig": {
+        "maxGotoLocations": 5,
+        "enableGoto": true
+    },
+    "bottomNavConfig": {
+        "subscription": { "isVisible": true },
+        "referral": {
+            "showNew": true
+        }
+    },
+    "purpleRideConfig": {
+        "showPurpleVideos": false,
+        "visualImpairmentVideo": "https://www.youtube.com/watch?v=2qYXl03N6Jg",
+        "physicalImpairmentVideo": "https://www.youtube.com/watch?v=B0C6SZTQO6k",
+        "hearingImpairmentVideo": "https://www.youtube.com/watch?v=udkWOt0serg",
+        "genericAccessibilityVideo": "https://youtu.be/5s21p2rI58c"
+    },
+    "otpRegex": "is your OTP for login to [A-Za-z]+ [A-Za-z]+ [A-Za-z]+",
+    "termsLink": "https://docs.google.com/document/d/1WkiqYIIk7wxVlis2ArlarVM6Dszb2z4G2qAePlKBEn8",
+    "termsVersion": 3.0,
+    "privacyLink": "https://docs.google.com/document/d/1N3ZJVwilWO9cIGFJXgl8h8au7lpdRyhXNMZJ8OXq4YY/edit?usp=sharing",
+    "feature": {
+        "enableBonus": true,
+        "enableImageUpload": false,
+        "enableGender": true,
+        "enableOtpRide": false,
+        "enableYatriCoins": true
+    },
+    "appData": {
+        "link": "https://play.google.com/store/apps/details?id=in.juspay.nammayatripartner",
+        "name": "Namma Yatri"
+    },
+    "enableMockLocation": true,
+    "cities": {
+        "bangalore": {
+            "cityName": "Bangalore",
+            "mapImage": "ny_ic_bangalore_map",
+            "cityCode": "std:080",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": true,
+            "enableYatriCoins": true,
+            "showScheduledRides": true,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 12.971599,
+            "cityLong": 77.594566,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 45,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 9,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹90 per day-*$*-ದಿನಕ್ಕೆ ಗರಿಷ್ಠ ₹90-*$*-प्रति दिन अधिकतम ₹90 तक-*$*-প্রতিদিন সর্বোচ্চ ₹90 পর্যন্ত-*$*-പ്രതിദിനം പരമാവധി ₹90 വരെ-*$*-ஒரு நாளைக்கு அதிகபட்சம் ₹90 வரை-*$*-రోజుకు గరిష్టంగా ₹99 వరకు"
+                },
+                {
+                    "price": 25,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 3.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹35 per day-*$*-ದಿನಕ್ಕೆ ಗರಿಷ್ಠ ₹35-*$*-प्रति दिन अधिकतम ₹35 तक-*$*-প্রতিদিন সর্বোচ্চ ₹35 পর্যন্ত-*$*-പ്രതിദിനം പരമാവധി ₹35 വരെ-*$*-ஒரு நாளைக்கு அதிகபட்சம் ₹35 வரை-*$*-రోజుకు గరిష్టంగా ₹35 వరకు"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": true,
+                "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "thrissur": {
+            "cityName": "Thrissur",
+            "mapImage": "ny_ic_thrissur_map",
+            "cityCode": "std:0487",
+            "supportNumber": "08069724930",
+            "supportMail": "support@keralasavaari.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "cityLat": 9.931233,
+            "cityLong": 76.267303,
+            "languageKey": "ML_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "chennai": {
+            "cityName": "Chennai",
+            "mapImage": "ny_ic_chennai_map",
+            "cityCode": "std:044",
+            "supportNumber": "+918618963188",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableReferral": true,
+            "subscriptionConfig": [
+                {
+                    "price": 40,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 8,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹80 per day"
+                },
+                {
+                    "price": 20,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 3,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹30 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "kochi": {
+            "cityName": "Kochi",
+            "mapImage": "ny_ic_kochi_map",
+            "cityCode": "std:0484",
+            "supportNumber": "+918618963188",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": false,
+            "enableReferral": true,
+            "subscriptionConfig": [
+                {
+                    "price": 30,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 6,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹60 per day"
+                },
+                {
+                    "price": 15,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹25 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "nalgonda": {
+            "cityName": "Nalgonda",
+            "mapImage": "ny_ic_location_map",
+            "cityCode": "std:08682",
+            "supportNumber": "08069724900",
+            "supportMail": "support@manayatri.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "cityLat": 17.055959610050486,
+            "cityLong": 79.2698763801053,
+            "languageKey": "TE_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "hyderabad": {
+            "cityName": "Hyderabad",
+            "mapImage": "ny_ic_hyderabad_map",
+            "cityCode": "std:040",
+            "supportNumber": "+918069724900",
+            "supportMail": "support@manayatri.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "uploadRCandDL": true,
+            "vehicleNSImg": "ny_ic_auto_image",
+            "advancedRidePopUpYoutubeLink": "",
+            "callDriverInfoPost": false,
+            "cityLat": 17.402113,
+            "cityLong": 78.499827,
+            "languageKey": "TE_IN",
+            "subscriptionConfig": [],
+            "registration": {
+                "supportWAN": "919392636637",
+                "callSupport": true,
+                "whatsappSupport": true
+            },
+            "variantSubscriptionConfig": {
+                "enableVariantBasedSubscription": true,
+                "variantList": [],
+                "enableCabsSubscriptionView": true,
+                "staticViewPlans": []
+            },
+            "showEarningSection": true,
+            "referral": {
+                "domain": "https://www.manayatri.in",
+                "customerAppId": "in.mobility.manayatri",
+                "driverAppId": "in.mobility.manayatripartner"
+            },
+            "waitingCharges": 2.0,
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "gstPercentage": "18",
+            "assets": {
+                "auto_image": "ny_ic_black_yellow_auto_side_view",
+                "onboarding_auto_image": "ny_ic_auto_right_side_yellow",
+                "empty_referral_auto": "ny_ic_refer_now_auto_my,https://assets.moving.tech/beckn/common/driver/images/ny_ic_refer_now_auto_my.png",
+                "empty_referral_cab": "ny_ic_refer_now_cab_my,https://assets.moving.tech/beckn/common/driver/images/ny_ic_refer_now_cab_my.png"
+            },
+            "enableHvSdk": true,
+            "purpleRideConfig": {
+                "purpleRideConfigForAuto": {
+                    "vehicleVariant": "Auto",
+                    "showVideo": false,
+                    "disabilityToVideo": [
+                        {
+                            "disabilityType": "BLIND_AND_LOW_VISION",
+                            "videoUrl": "https://www.youtube.com/watch?v=2qYXl03N6Jg"
+                        },
+                        {
+                            "disabilityType": "HEAR_IMPAIRMENT",
+                            "videoUrl": "https://www.youtube.com/watch?v=udkWOt0serg"
+                        },
+                        {
+                            "disabilityType": "LOCOMOTOR_DISABILITY",
+                            "videoUrl": "https://www.youtube.com/watch?v=B0C6SZTQO6k"
+                        },
+                        {
+                            "disabilityType": "SAFETY",
+                            "videoUrl": ""
+                        },
+                        {
+                            "disabilityType": "SPECIAL_ZONE_PICKUP",
+                            "videoUrl": ""
+                        },
+                        {
+                            "disabilityType": "OTHER_DISABILITY",
+                            "videoUrl": ""
+                        }
+                    ],
+                    "genericVideoForVariant": "https://youtu.be/5s21p2rI58c"
+                },
+                "purpleRideConfigForCabs": {
+                    "vehicleVariant": "Cab",
+                    "showVideo": false,
+                    "disabilityToVideo": [
+                        {
+                            "disabilityType": "BLIND_AND_LOW_VISION",
+                            "videoUrl": "https://www.youtube.com/watch?v=2qYXl03N6Jg"
+                        },
+                        {
+                            "disabilityType": "HEAR_IMPAIRMENT",
+                            "videoUrl": "https://www.youtube.com/watch?v=udkWOt0serg"
+                        },
+                        {
+                            "disabilityType": "LOCOMOTOR_DISABILITY",
+                            "videoUrl": "https://www.youtube.com/watch?v=B0C6SZTQO6k"
+                        },
+                        {
+                            "disabilityType": "SAFETY",
+                            "videoUrl": ""
+                        },
+                        {
+                            "disabilityType": "SPECIAL_ZONE_PICKUP",
+                            "videoUrl": ""
+                        },
+                        {
+                            "disabilityType": "OTHER_DISABILITY",
+                            "videoUrl": ""
+                        }
+                    ],
+                    "genericVideoForVariant": "https://youtu.be/5s21p2rI58c"
+                },
+                "purpleRideConfigForBikes": {
+                    "vehicleVariant": "Bike",
+                    "showVideo": false,
+                    "disabilityToVideo": [
+                        {
+                            "disabilityType": "BLIND_AND_LOW_VISION",
+                            "videoUrl": "https://www.youtube.com/watch?v=2qYXl03N6Jg"
+                        },
+                        {
+                            "disabilityType": "HEAR_IMPAIRMENT",
+                            "videoUrl": "https://www.youtube.com/watch?v=udkWOt0serg"
+                        },
+                        {
+                            "disabilityType": "LOCOMOTOR_DISABILITY",
+                            "videoUrl": "https://www.youtube.com/watch?v=B0C6SZTQO6k"
+                        },
+                        {
+                            "disabilityType": "SAFETY",
+                            "videoUrl": ""
+                        },
+                        {
+                            "disabilityType": "SPECIAL_ZONE_PICKUP",
+                            "videoUrl": ""
+                        },
+                        {
+                            "disabilityType": "OTHER_DISABILITY",
+                            "videoUrl": ""
+                        }
+                    ],
+                    "genericVideoForVariant": "https://youtu.be/5s21p2rI58c"
+                }
+            },
+            "rideStartAudio": {
+                "acCab": {
+                    "parkingAudio": "https://assets.moving.tech/beckn/audios/parking_charges_background/te.mp3"
+                },
+                "nonAcCab": {},
+                "auto": {},
+                "bike": {}
+            }
+        },
+        "warangal": {
+            "cityName": "Warangal",
+            "mapImage": "ny_ic_warangal_map",
+            "cityCode": "std:0870",
+            "supportNumber": "+918069724900",
+            "supportMail": "support@manayatri.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "cityLat": 17.967432,
+            "cityLong": 79.588875,
+            "languageKey": "TE_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "tirupati": {
+            "cityName": "Tirupati",
+            "mapImage": "ny_ic_location_map",
+            "cityCode": "std:0877",
+            "supportNumber": "+918069724900",
+            "supportMail": "support@manayatri.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "cityLat": 13.620298,
+            "cityLong": 79.4323363,
+            "languageKey": "TE_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "mysore": {
+            "cityName": "Mysore",
+            "mapImage": "ny_ic_mysuru_map",
+            "cityCode": "std:0821",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": true,
+            "enableYatriCoins": true,
+            "showScheduledRides": true,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 12.29581,
+            "cityLong": 76.639381,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 45,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 9,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹90 per day"
+                },
+                {
+                    "price": 25,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 3.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹35 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": true,
+                "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "delhi": {
+            "cityName": "Delhi",
+            "mapImage": "ny_ic_delhi_map",
+            "cityCode": "std:011",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": true,
+            "enableYatriCoins": true,
+            "showScheduledRides": true,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 28.618978,
+            "cityLong": 77.207795,
+            "languageKey": "HI_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 55,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 11,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹110 per day"
+                },
+                {
+                    "price": 35,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 4.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹45 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2.5
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2.5
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2.5
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": true,
+                "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "coimbatore": {
+            "cityName": "Coimbatore",
+            "cityCode": "std:0422",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": true,
+            "enableYatriCoins": true,
+            "showScheduledRides": true,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 11.0168,
+            "cityLong": 76.9558,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 35,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 7,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹70 per day"
+                },
+                {
+                    "price": 20,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 3,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹30 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "pondicherry": {
+            "cityName": "Pondicherry",
+            "cityCode": "std:0413",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 11.9416,
+            "cityLong": 79.8083,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 30,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 6,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹60 per day"
+                },
+                {
+                    "price": 15,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹25 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "tumakuru": {
+            "cityName": "Tumakuru",
+            "cityCode": "std:0816",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 13.3379,
+            "cityLong": 77.1072,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 30,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 6,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹60 per day"
+                },
+                {
+                    "price": 18,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹25 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "gurugram": {
+            "cityName": "Gurugram",
+            "cityCode": "std:0124",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": true,
+            "enableYatriCoins": true,
+            "showScheduledRides": true,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 28.4595,
+            "cityLong": 77.0266,
+            "languageKey": "HI_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 60,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 12,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹120 per day"
+                },
+                {
+                    "price": 40,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹50 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 3
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 3
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 3
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": true,
+                "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "noida": {
+            "cityName": "Noida",
+            "cityCode": "std:0120",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": true,
+            "enableYatriCoins": true,
+            "showScheduledRides": true,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 28.5355,
+            "cityLong": 77.391,
+            "languageKey": "HI_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 55,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 11,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹110 per day"
+                },
+                {
+                    "price": 35,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 4.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹45 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2.5
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2.5
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2.5
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": true,
+                "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "trichy": {
+            "cityName": "Trichy",
+            "cityCode": "std:0431",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 10.7905,
+            "cityLong": 78.7047,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 32,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 6.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹65 per day"
+                },
+                {
+                    "price": 18,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.8,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹28 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "thanjavur": {
+            "cityName": "Thanjavur",
+            "cityCode": "std:04362",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 10.787,
+            "cityLong": 79.1378,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 28,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 5.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹55 per day"
+                },
+                {
+                    "price": 16,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹25 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "salem": {
+            "cityName": "Salem",
+            "cityCode": "std:0427",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 11.6643,
+            "cityLong": 78.146,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 30,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 6,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹60 per day"
+                },
+                {
+                    "price": 17,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.7,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹27 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "tirunelveli": {
+            "cityName": "Tirunelveli",
+            "cityCode": "std:0462",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 8.7139,
+            "cityLong": 77.7567,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 25,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹50 per day"
+                },
+                {
+                    "price": 15,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.2,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹22 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "hosur": {
+            "cityName": "Hosur",
+            "cityCode": "std:04344",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 12.7409,
+            "cityLong": 77.8253,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 27,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 5.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹55 per day"
+                },
+                {
+                    "price": 16,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹25 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "madurai": {
+            "cityName": "Madurai",
+            "cityCode": "std:0452",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 9.9252,
+            "cityLong": 78.1198,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 33,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 6.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹65 per day"
+                },
+                {
+                    "price": 19,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 3,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹30 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "vellore": {
+            "cityName": "Vellore",
+            "cityCode": "std:0416",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 12.9165,
+            "cityLong": 79.1325,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 29,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 5.8,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹58 per day"
+                },
+                {
+                    "price": 17,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.6,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹26 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "trivandrum": {
+            "cityName": "Trivandrum",
+            "cityCode": "std:0471",
+            "supportNumber": "08069724930",
+            "supportMail": "support@keralasavaari.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "cityLat": 8.5241,
+            "cityLong": 76.9366,
+            "languageKey": "ML_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "kozhikode": {
+            "cityName": "Kozhikode",
+            "cityCode": "std:0495",
+            "supportNumber": "08069724930",
+            "supportMail": "support@keralasavaari.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "cityLat": 11.2588,
+            "cityLong": 75.7804,
+            "languageKey": "ML_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "pudukkottai": {
+            "cityName": "Pudukkottai",
+            "cityCode": "std:04322",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 10.3833,
+            "cityLong": 78.8167,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 22,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 4.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹45 per day"
+                },
+                {
+                    "price": 13,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹20 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "davanagere": {
+            "cityName": "Davanagere",
+            "cityCode": "std:08192",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 14.4644,
+            "cityLong": 75.9218,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 25,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹50 per day"
+                },
+                {
+                    "price": 15,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.3,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹23 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "shivamogga": {
+            "cityName": "Shivamogga",
+            "cityCode": "std:08182",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 13.9299,
+            "cityLong": 75.5681,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 24,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 4.8,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹48 per day"
+                },
+                {
+                    "price": 14,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.2,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹22 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "hubli": {
+            "cityName": "Hubli",
+            "cityCode": "std:0836",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 15.3647,
+            "cityLong": 75.124,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 26,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 5.2,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹52 per day"
+                },
+                {
+                    "price": 15,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.4,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹24 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "bidar": {
+            "cityName": "Bidar",
+            "cityCode": "std:08482",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 17.9104,
+            "cityLong": 77.5199,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 20,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 4,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹40 per day"
+                },
+                {
+                    "price": 12,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹20 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "mangalore": {
+            "cityName": "Mangalore",
+            "cityCode": "std:0824",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 12.9141,
+            "cityLong": 74.856,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 28,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 5.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹55 per day"
+                },
+                {
+                    "price": 16,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹25 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "gulbarga": {
+            "cityName": "Gulbarga",
+            "cityCode": "std:08472",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 17.3297,
+            "cityLong": 76.8343,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 22,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 4.4,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹44 per day"
+                },
+                {
+                    "price": 13,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.1,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹21 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "udupi": {
+            "cityName": "Udupi",
+            "cityCode": "std:0820",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 13.3409,
+            "cityLong": 74.7421,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 24,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 4.8,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹48 per day"
+                },
+                {
+                    "price": 14,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.2,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹22 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "bhubaneshwar": {
+            "cityName": "Bhubaneshwar",
+            "cityCode": "std:0674",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 20.2961,
+            "cityLong": 85.8245,
+            "languageKey": "HI_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 35,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 7,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹70 per day"
+                },
+                {
+                    "price": 20,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 3.2,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹32 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "cuttack": {
+            "cityName": "Cuttack",
+            "cityCode": "std:0671",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 20.4625,
+            "cityLong": 85.8828,
+            "languageKey": "HI_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 30,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 6,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹60 per day"
+                },
+                {
+                    "price": 18,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.8,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹28 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "puri": {
+            "cityName": "Puri",
+            "cityCode": "std:06752",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": true,
+            "enableGullak": true,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": true,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 19.8135,
+            "cityLong": 85.8312,
+            "languageKey": "HI_IN",
+            "subscriptionConfig": [
+                {
+                    "price": 25,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 5,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "CarCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹50 per day"
+                },
+                {
+                    "price": 15,
+                    "frequency": "PER_DAY",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_UNLIMITED",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "CAB_DAILY_UNLIMITED_OFFER"
+                },
+                {
+                    "price": 2.3,
+                    "frequency": "PER_RIDE",
+                    "variantCategory": "AutoCategory",
+                    "name": "DAILY_PER_RIDE",
+                    "introductoryOffer": "",
+                    "showSelected": false,
+                    "planDesc": "Up to a maximum of ₹23 per day"
+                }
+            ],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "srinagar": {
+            "cityName": "Srinagar",
+            "cityCode": "std:0194",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "cityLat": 34.0837,
+            "cityLong": 74.7973,
+            "languageKey": "HI_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2.5
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2.5
+                },
+                "ambulance": {
+                    "freeSeconds": 480,
+                    "perMinCharges": 2.5
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": false,
+                "learnMoreVideoLink": ""
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "minneapolis": {
+            "cityName": "Minneapolis",
+            "cityCode": "std:01189",
+            "supportNumber": "+918069724848",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "cityLat": 44.977753,
+            "cityLong": -93.2650108,
+            "languageKey": "EN_US",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 2
+                },
+                "ambulance": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 2
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": true,
+                "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        },
+        "paris": {
+            "cityName": "Paris",
+            "cityCode": "std:001",
+            "supportNumber": "08069724919",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 20.2376,
+            "cityLong": 84.27,
+            "languageKey": "KN_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "ambulance": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "ambulance": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": true,
+                "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "odisha": {
+            "cityName": "Odisha",
+            "cityCode": "std:001",
+            "supportNumber": "08069724919",
+            "supportMail": "support@odishayatri.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": false,
+            "showCustomerReferral": true,
+            "cityLat": 20.2376,
+            "cityLong": 84.27,
+            "languageKey": "OD_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "ambulance": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "ambulance": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": true,
+                "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
+            },
+            "vehicleNSImg": "ny_ic_auto_image"
+        },
+        "tamilnaducities": {
+            "cityName": "TamilNaduCities",
+            "cityCode": "std:0422",
+            "supportNumber": "08069724899",
+            "supportMail": "support@nammayatri.in",
+            "showSubscriptions": false,
+            "enableGullak": false,
+            "enableAdvancedBooking": false,
+            "enableYatriCoins": false,
+            "showScheduledRides": false,
+            "showDriverReferral": true,
+            "showCustomerReferral": true,
+            "cityLat": 11.1271,
+            "cityLong": 78.6569,
+            "languageKey": "TA_IN",
+            "subscriptionConfig": [],
+            "waitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "ambulance": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                }
+            },
+            "rentalWaitingChargesConfig": {
+                "cab": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "auto": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                },
+                "bike": {
+                    "freeSeconds": 180,
+                    "perMinCharges": 1.5
+                },
+                "ambulance": {
+                    "freeSeconds": 300,
+                    "perMinCharges": 1.5
+                }
+            },
+            "rateCardConfig": {
+                "showLearnMore": true,
+                "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
+            },
+            "vehicleNSImg": "ny_ic_auto_image_old"
+        }
+    },
+    "appUpdatePopupUrl": "https://play.google.com/store/apps/details?id=in.mobility.keralasavaari&pcampaignid=web_share",
+    "dashboard": {
+        "enable": true,
+        "url": "https://nammayatri.in/open?source=in-app"
+    },
+    "profile": {
+        "showBookingOption": true
+    },
+    "shareAppConfig": {
+        "title": "Share Kerala Savaari!",
+        "description": "Hey there!\n\nExperience Kerala’s first Zero Commission ride-booking app—initiated by the Kerala Government. ✅ 100% Open Source | ✅ 100% Open Data \n\n"
+    },
+    "waitTimeConfig": {
+        "thresholdDist": 0.05,
+        "routeDistance": 30,
+        "diffBtwTwoHeartBeats": 10,
+        "straightLineDist": 0.015
+    },
+    "rideCompletedCardConfig": {
+        "lottieQRAnim": true
+    },
+    "vehicle": {
+        "validationPrefix": "KA|AP|TS|DL|TN|PY|UP|HR|TG"
+    }
+}
