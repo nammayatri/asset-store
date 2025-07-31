@@ -90,9 +90,8 @@
         "domain" : "https://nammayatri.in", 
         "customerAppId" : "in.juspay.nammayatri", 
         "driverAppId" : "in.juspay.nammayatripartner"
-
     },
-    "gotoConfig": {
+    "gotoConfig": { 
         "maxGotoLocations": 5,
         "enableGoto": true
     },
@@ -102,12 +101,98 @@
             "showNew": true
         }
     },
-    "purpleRideConfig": {
-        "showPurpleVideos": false,
-        "visualImpairmentVideo": "https://www.youtube.com/watch?v=2qYXl03N6Jg",
-        "physicalImpairmentVideo": "https://www.youtube.com/watch?v=B0C6SZTQO6k",
-        "hearingImpairmentVideo": "https://www.youtube.com/watch?v=udkWOt0serg",
-        "genericAccessibilityVideo": "https://youtu.be/5s21p2rI58c"
+    "purpleRideConfigForAuto": {
+        "vehicleVariant": "Auto",
+        "showVideo": false,
+        "disabilityToVideo": [
+            {
+                "disabilityType": "BLIND_LOW_VISION",
+                "videoUrl": "https://www.youtube.com/watch?v=2qYXl03N6Jg"
+            },
+            {
+                "disabilityType": "HEAR_IMPAIRMENT",
+                "videoUrl": "https://www.youtube.com/watch?v=udkWOt0serg"
+            },
+            {
+                "disabilityType": "LOCOMOTOR_DISABILITY",
+                "videoUrl": "https://www.youtube.com/watch?v=B0C6SZTQO6k"
+            },
+            {
+                "disabilityType": "SAFETY",
+                "videoUrl": ""
+            },
+            {
+                "disabilityType": "SPECIAL_ZONE_PICKUP",
+                "videoUrl": ""
+            },
+            {
+                "disabilityType": "OTHER_DISABILITY",
+                "videoUrl": ""
+            }
+        ],
+        "genericVideoForVariant": "https://youtu.be/5s21p2rI58c"
+    },
+    "purpleRideConfigForCabs": {
+        "vehicleVariant": "Cab",
+        "showVideo": false,
+        "disabilityToVideo": [
+            {
+                "disabilityType": "BLIND_AND_LOW_VISION",
+                "videoUrl": "https://www.youtube.com/watch?v=2qYXl03N6Jg"
+            },
+            {
+                "disabilityType": "HEAR_IMPAIRMENT",
+                "videoUrl": "https://www.youtube.com/watch?v=udkWOt0serg"
+            },
+            {
+                "disabilityType": "LOCOMOTOR_DISABILITY",
+                "videoUrl": "https://www.youtube.com/watch?v=B0C6SZTQO6k"
+            },
+            {
+                "disabilityType": "SAFETY",
+                "videoUrl": ""
+            },
+            {
+                "disabilityType": "SPECIAL_ZONE_PICKUP",
+                "videoUrl": ""
+            },
+            {
+                "disabilityType": "OTHER_DISABILITY",
+                "videoUrl": ""
+            }
+        ],
+        "genericVideoForVariant": "https://youtu.be/5s21p2rI58c"
+    },
+    "purpleRideConfigForBikes": {
+        "vehicleVariant": "Bike",
+        "showVideo": false,
+        "disabilityToVideo": [
+            {
+                "disabilityType": "BLIND_AND_LOW_VISION",
+                "videoUrl": "https://www.youtube.com/watch?v=2qYXl03N6Jg"
+            },
+            {
+                "disabilityType": "HEAR_IMPAIRMENT",
+                "videoUrl": "https://www.youtube.com/watch?v=udkWOt0serg"
+            },
+            {
+                "disabilityType": "LOCOMOTOR_DISABILITY",
+                "videoUrl": "https://www.youtube.com/watch?v=B0C6SZTQO6k"
+            },
+            {
+                "disabilityType": "SAFETY",
+                "videoUrl": ""
+            },
+            {
+                "disabilityType": "SPECIAL_ZONE_PICKUP",
+                "videoUrl": ""
+            },
+            {
+                "disabilityType": "OTHER_DISABILITY",
+                "videoUrl": ""
+            }
+        ],
+        "genericVideoForVariant": "https://youtu.be/5s21p2rI58c"
     },
     "otpRegex": "is your OTP for login to [A-Za-z]+ [A-Za-z]+ [A-Za-z]+",
     "termsLink": "https://docs.google.com/document/d/1WkiqYIIk7wxVlis2ArlarVM6Dszb2z4G2qAePlKBEn8",
@@ -220,7 +305,20 @@
                 "showLearnMore": true,
                 "learnMoreVideoLink": "https://www.youtube.com/shorts/NUTNKPzslpw"
             },
-            "vehicleNSImg": "ny_ic_auto_image"
+            "vehicleNSImg": "ny_ic_auto_image",
+            "rideStartAudio": {
+                "acCab": {
+                    "tollAudio": "https://assets.moving.tech/beckn/audios/toll_charges_background/kn.mp3",
+                    "acAudio": "https://assets.moving.tech/beckn/audios/ac_background/kn.mp3"
+                },
+                "nonAcCab": {
+                    "tollAudio": "https://assets.moving.tech/beckn/audios/toll_charges_background/kn.mp3",
+                    "acAudio": "https://assets.moving.tech/beckn/audios/non_ac_background/kn.mp3"
+                },
+
+                "auto": {},
+                "bike": {}
+            }
         },
         "thrissur": {
             "cityName": "Thrissur",
@@ -290,6 +388,13 @@
             "showSubscriptions": true,
             "enableGullak": true,
             "enableReferral": true,
+            "openMeter" : {
+                "enable" : {
+                    "AutoCategory" : true
+                },
+                "addDestination" : true,
+                "shareRideTracking" : false
+            },
             "subscriptionConfig": [
                 {
                     "price": 40,
@@ -611,7 +716,7 @@
                     "showVideo": false,
                     "disabilityToVideo": [
                         {
-                            "disabilityType": "BLIND_AND_LOW_VISION",
+                            "disabilityType": "BLIND_LOW_VISION",
                             "videoUrl": "https://www.youtube.com/watch?v=2qYXl03N6Jg"
                         },
                         {
@@ -1224,6 +1329,13 @@
             "cityLat": 13.3379,
             "cityLong": 77.1072,
             "languageKey": "KN_IN",
+            "openMeter" : {
+                "enable" : {
+                    "AutoCategory" : true
+                },
+                "addDestination" : true,
+                "shareRideTracking" : false
+            },
             "subscriptionConfig": [
                 {
                     "price": 30,
@@ -1509,6 +1621,13 @@
             "cityLat": 10.7905,
             "cityLong": 78.7047,
             "languageKey": "TA_IN",
+            "openMeter" : {
+                "enable" : {
+                    "AutoCategory" : true
+                },
+                "addDestination" : true,
+                "shareRideTracking" : false
+            },
             "subscriptionConfig": [
                 {
                     "price": 32,
@@ -3621,7 +3740,7 @@
     },
     "shareAppConfig": {
         "title": "Share Kerala Savaari!",
-        "description": "Hey there!\n\nExperience Kerala’s first Zero Commission ride-booking app—initiated by the Kerala Government. ✅ 100% Open Source | ✅ 100% Open Data \n\n"
+        "description": "Hey there!\n\nExperience Kerala's first Zero Commission ride-booking app—initiated by the Kerala Government. ✅ 100% Open Source | ✅ 100% Open Data \n\n"
     },
     "waitTimeConfig": {
         "thresholdDist": 0.05,
@@ -3634,5 +3753,15 @@
     },
     "vehicle": {
         "validationPrefix": "KA|AP|TS|DL|TN|PY|UP|HR|TG"
-    }
+    },
+    "driver_carousel_banner_en_v2": [{
+        "image": "ny_ic_place_holder_banner",
+        "url": "https://www.example.com"
+    },
+    {
+        "image": "ny_ic_place_holder_banner",
+        "url": "https://www.example.com"
+    }],
+    "rr_tag_config" : [],
+    "enable_rr_v2" : true
 }
