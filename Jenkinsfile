@@ -68,6 +68,8 @@ pipeline {
                       contentType = "application/pdf"
                     } else if (file ==~ '.*\\.html$') {
                       contentType = "text/html"
+                    } else if (file ==~ '.*\\.webp$') {
+                      contentType = "image/webp"
                     } else {
                       continue
                     }
