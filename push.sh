@@ -69,15 +69,17 @@ push_asset() {
 }
 
 asset=""
-bucket="beckn-frontend-assets"  # TODO : PROD bucket 
-distributionId="EZCA94ADQWCV1" 
+# Use S3_BUCKET from environment if set, otherwise default to beckn-frontend-assets
+bucket="${S3_BUCKET:-beckn-frontend-assets}"
+# Use CF_DISTRIBUTION_ID from environment if set, otherwise use default
+distributionId="${CF_DISTRIBUTION_ID:-EZCA94ADQWCV1}"
 force_push=false
 
 if [ $(echo $@ | sed "s/--[a-zA-Z]*-*[a-zA-Z]*//g" | tr -d '[:space:]' | wc -c) -ne 0 ]
 then asset=$(echo $@ | sed "s/--[a-zA-Z]*-*[a-zA-Z]*//g" | tr -d '[:space:]'); fi
 
 if [[ "$@" =~ --sandbox ]]                  
-then bucket="beckn-frontend-assets"; fi    # TODO :: sandbox bucket (optional)
+then bucket="${S3_BUCKET:-beckn-frontend-assets}"; fi    # Use env var if set, otherwise default
 
 echo -------------- s3 push starting -------------------
 
@@ -125,5 +127,6 @@ then
 
   pathToPush="s3://$bucket/$asset"
   push_asset $local_path $pathToPush
-  invalidate_asset $local_path
+  # Invalidate CloudFront cache using the asset path (relative to distribution root)
+  invalidate_asset "/$asset"
 fi
