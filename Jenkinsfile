@@ -50,7 +50,7 @@ def setupAWS(env, isProd){
 pipeline {
   agent {
       kubernetes {
-            label 'dind-agent'
+            label 'mobility-agent'
       }
   }
   environment {
