@@ -1,6 +1,7 @@
 def allowedBranches = ["main"]
 
 def uploadedFiles = ""
+def hasImageChanges = false
 
 def setupAWS(env, isProd){
   if (isProd) {
@@ -53,6 +54,9 @@ pipeline {
             label 'mobility-agent'
       }
   }
+  triggers {
+      githubPush()
+  }
   environment {
         GIT_AUTHOR_NAME = "Jenkins"
         GIT_COMMITTER_NAME = "Jenkins"
@@ -62,6 +66,9 @@ pipeline {
   stages {
 
     stage('Getting Commit Id of Last Push') {
+        when {
+            expression { env.BRANCH_NAME == 'main' }
+        }
         steps {
             script {
                 echo "bob started building"
@@ -79,7 +86,43 @@ pipeline {
           }
       }
 
+    stage('Check For Image Changes') {
+        when {
+            expression { env.BRANCH_NAME == 'main' }
+        }
+        steps {
+            script {
+                def changedFiles = """${sh(
+                    returnStdout: true,
+                    script: '''
+                    set +x;
+                    git diff ${LAST_PUSH} ${GIT_COMMIT} --name-only --diff-filter=AMR;
+                    '''
+                  )}""".trim().split("\n")
+
+                env.CHANGED_FILES = changedFiles.join("\n")
+
+                def imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg']
+                hasImageChanges = changedFiles.any { file ->
+                    imageExtensions.any { ext -> file.toLowerCase().endsWith(ext) }
+                }
+
+                if (hasImageChanges) {
+                    echo "Image changes detected, proceeding with build"
+                } else {
+                    echo "No image changes detected, skipping build"
+                }
+              }
+          }
+      }
+
     stage('Setup AWS') {
+        when {
+            allOf {
+                expression { env.BRANCH_NAME == 'main' }
+                expression { hasImageChanges }
+            }
+        }
         steps {
             script {
                 // Determine if this is a production deployment
@@ -106,18 +149,15 @@ pipeline {
     }
 
     stage('Uploading Assets') {
+        when {
+            expression { hasImageChanges }
+        }
         steps {
             script {
                 // Determine if this is a production deployment
                 def isProd = (env.BRANCH_NAME == "main")
-                
-                def changedFiles = """${sh(
-                    returnStdout: true,
-                    script: '''
-                    set +x;
-                    git diff ${LAST_PUSH} ${GIT_COMMIT} --name-only --diff-filter=AMR;
-                    '''
-                  )}""".trim().split("\n")
+
+                def changedFiles = env.CHANGED_FILES.split("\n")
 
                 for (file in changedFiles) {
                     def contentType = ""
@@ -182,6 +222,9 @@ pipeline {
       }
 
     stage('Updating S3 Push Record') {
+        when {
+            expression { hasImageChanges }
+        }
         steps {
             script {
                 env.SUMMARY = "Files Uploaded: ${uploadedFiles == '' ? 'NA' : uploadedFiles}"
