@@ -145,6 +145,8 @@ pipeline {
                       contentType = "text/html"
                     } else if (file ==~ '.*\\.webp$') {
                       contentType = "image/webp"
+                    } else if (file ==~ '.*\\.lottie$') {
+                      contentType = "binary/octet-stream"
                     } else {
                       continue
                     }
