@@ -53,15 +53,49 @@ pipeline {
             label 'mobility-agent'
       }
   }
+
+  triggers {
+      pollSCM('H/10 * * * *')
+  }
+
+  options {
+      disableConcurrentBuilds()
+  }
+
   environment {
         GIT_AUTHOR_NAME = "Jenkins"
         GIT_COMMITTER_NAME = "Jenkins"
         AWS_REGION = "ap-south-1"
+        SKIP_BUILD = "false"
     }
 
   stages {
 
+    stage('Check Commit For Skip CI') {
+        steps {
+            script {
+                def commitMsg = sh(
+                    returnStdout: true,
+                    script: 'git log -1 --pretty=%B'
+                ).trim()
+
+                echo "Latest commit message: ${commitMsg}"
+
+                if (commitMsg.contains('[skip ci]')) {
+                    echo "Detected bot commit with [skip ci] — skipping build to avoid infinite trigger loop."
+                    env.SKIP_BUILD = "true"
+                    currentBuild.result = 'SUCCESS'
+                } else {
+                    env.SKIP_BUILD = "false"
+                }
+            }
+        }
+    }
+
     stage('Getting Commit Id of Last Push') {
+        when {
+            expression { return env.SKIP_BUILD != 'true' }
+        }
         steps {
             script {
                 echo "bob started building"
@@ -80,6 +114,9 @@ pipeline {
       }
 
     stage('Setup AWS') {
+        when {
+            expression { return env.SKIP_BUILD != 'true' }
+        }
         steps {
             script {
                 // Determine if this is a production deployment
@@ -106,6 +143,9 @@ pipeline {
     }
 
     stage('Uploading Assets') {
+        when {
+            expression { return env.SKIP_BUILD != 'true' }
+        }
         steps {
             script {
                 // Determine if this is a production deployment
@@ -184,6 +224,9 @@ pipeline {
       }
 
     stage('Updating S3 Push Record') {
+        when {
+            expression { return env.SKIP_BUILD != 'true' }
+        }
         steps {
             script {
                 env.SUMMARY = "Files Uploaded: ${uploadedFiles == '' ? 'NA' : uploadedFiles}"
