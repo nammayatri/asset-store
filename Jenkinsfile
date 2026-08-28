@@ -237,33 +237,22 @@ pipeline {
                     def commitUrl = "https://github.com/nammayatri/asset-store/commit/${env.GIT_COMMIT}"
                     def messageText = "*Assets pushed to S3*\\n*Bucket:* ${env.S3_BUCKET}\\n*Commit:* ${commitUrl}\\n*Files:*\\n${fileLines}"
 
-                    def payload = """{
-                        "channel": "${'$'}XYNE_CHANNEL",
-                        "text": "Assets pushed to S3",
-                        "attachments": [
-                            {
-                                "color": "#71717a",
-                                "blocks": [
-                                    { "type": "section", "text": { "type": "mrkdwn", "text": "${messageText}" } }
-                                ]
-                            }
-                        ]
-                    }"""
-
-                    writeFile file: 'xyne-payload.json', text: payload
+                    writeFile file: 'xyne-message.txt', text: messageText
 
                     def notifyStatus = sh(
                         returnStatus: true,
                         script: '''
                         set +x;
+                        payload=$(jq -n --arg channel "$XYNE_CHANNEL" --rawfile msg xyne-message.txt \
+                            '{channel: $channel, text: "Assets pushed to S3", attachments: [{color: "#71717a", blocks: [{type: "section", text: {type: "mrkdwn", text: $msg}}]}]}')
                         curl -s -X POST "https://spaces.xyne.juspay.net/api/apps/slack/chat.postMessage" \
                             -H "Authorization: Bearer ${XYNE_BOT_TOKEN}" \
                             -H "Content-Type: application/json; charset=utf-8" \
-                            -d @xyne-payload.json
+                            -d "$payload"
                         '''
                     )
 
-                    sh "rm -f xyne-payload.json"
+                    sh "rm -f xyne-message.txt"
 
                     if (notifyStatus != 0) {
                         echo "Xyne notification failed (exit ${notifyStatus}) — not failing the build since assets were already uploaded."
