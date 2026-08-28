@@ -1,6 +1,7 @@
 def allowedBranches = ["main"]
 
 def uploadedFiles = ""
+def skipBuild = false
 
 def setupAWS(env, isProd){
   if (isProd) {
@@ -66,12 +67,11 @@ pipeline {
         GIT_AUTHOR_NAME = "Jenkins"
         GIT_COMMITTER_NAME = "Jenkins"
         AWS_REGION = "ap-south-1"
-        SKIP_BUILD = "false"
     }
 
   stages {
 
-    // Must run FIRST — computing SKIP_BUILD below needs LAST_PUSH.
+    // Must run FIRST — computing skipBuild below needs LAST_PUSH.
     stage('Getting Commit Id of Last Push') {
         steps {
             script {
@@ -101,7 +101,7 @@ pipeline {
 
                 if (newCommits == "") {
                     echo "No new commits since last push (${env.LAST_PUSH}) — skipping build."
-                    env.SKIP_BUILD = "true"
+                    skipBuild = true
                     currentBuild.result = 'SUCCESS'
                 } else {
                     def commitSubjects = newCommits.split("\n")
@@ -111,34 +111,33 @@ pipeline {
 
                     if (allSkip) {
                         echo "All ${commitSubjects.size()} new commit(s) are [skip ci] — skipping build."
-                        env.SKIP_BUILD = "true"
+                        skipBuild = true
                         currentBuild.result = 'SUCCESS'
                     } else {
                         echo "Found at least one non-skip-ci commit — proceeding with build."
-                        env.SKIP_BUILD = "false"
+                        skipBuild = false
                     }
                 }
+
+                echo "DEBUG: skipBuild resolved to ${skipBuild}"
             }
         }
     }
 
     stage('Setup AWS') {
         when {
-            expression { return env.SKIP_BUILD != 'true' }
+            expression { return !skipBuild }
         }
         steps {
             script {
-                if (env.SKIP_BUILD == 'true') {
-                    echo "SKIP_BUILD is true — skipping Setup AWS."
-                    return
-                }
+                echo "DEBUG: entering Setup AWS with skipBuild=${skipBuild}"
 
                 // Determine if this is a production deployment
                 def isProd = (env.BRANCH_NAME == "main")
 
                 // Setup AWS credentials via role assumption
                 setupAWS(env, isProd)
-                
+
                 // Export AWS credentials for use in subsequent stages
                 if (isProd) {
                     sh """
@@ -149,7 +148,7 @@ pipeline {
                         echo "AWS credentials configured via role assumption"
                     """
                 }
-                
+
                 echo "S3 Bucket: ${env.S3_BUCKET}"
                 echo "CloudFront Distribution ID: ${env.CF_DISTRIBUTION_ID}"
             }
@@ -158,15 +157,10 @@ pipeline {
 
     stage('Uploading Assets') {
         when {
-            expression { return env.SKIP_BUILD != 'true' }
+            expression { return !skipBuild }
         }
         steps {
             script {
-                if (env.SKIP_BUILD == 'true') {
-                    echo "SKIP_BUILD is true — skipping Uploading Assets."
-                    return
-                }
-
                 // Determine if this is a production deployment
                 def isProd = (env.BRANCH_NAME == "main")
 
@@ -216,7 +210,7 @@ pipeline {
                     def s3Path = "s3://${env.S3_BUCKET}/${file}"
 
                     sh "chmod +x ./push.sh"
-                    
+
                     // Export AWS credentials and bucket info for push.sh script
                     if (isProd) {
                         sh """
@@ -244,7 +238,7 @@ pipeline {
 
     stage('Notify Xyne') {
         when {
-            expression { return env.SKIP_BUILD != 'true' && uploadedFiles != '' }
+            expression { return !skipBuild && uploadedFiles != '' }
         }
         steps {
             script {
@@ -283,30 +277,25 @@ pipeline {
 
     stage('Updating S3 Push Record') {
         when {
-            expression { return env.SKIP_BUILD != 'true' }
+            expression { return !skipBuild }
         }
         steps {
             script {
-                if (env.SKIP_BUILD == 'true') {
-                    echo "SKIP_BUILD is true — skipping Updating S3 Push Record."
-                    return
-                }
-
                 env.SUMMARY = "Files Uploaded: ${uploadedFiles == '' ? 'NA' : uploadedFiles}"
 
                 def branchName = 'main'
                 def commitMessage = "[skip ci] updating s3LastCommitPush"
-                
+
                 sh "git config user.email 'namma.yatri.jenkins@gmail.com'"
                 sh "git config user.name 'ny-jenkins'"
-                
+
                 sh "git remote set-url origin git@github.com:nammayatri/asset-store.git"
                 sh "git fetch origin ${branchName}"
                 sh "git checkout -B ${branchName} origin/${branchName}"
-                
+
                 sh "echo ${GIT_COMMIT} > s3LastCommitPush.txt"
                 sh "git add s3LastCommitPush.txt"
-                
+
                 sh "git commit -m \"${commitMessage}\""
                 sh "git push"
 
