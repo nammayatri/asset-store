@@ -71,47 +71,56 @@ pipeline {
 
   stages {
 
-    stage('Check Commit For Skip CI') {
-        steps {
-            script {
-                def commitMsg = sh(
-                    returnStdout: true,
-                    script: 'git log -1 --pretty=%B'
-                ).trim()
-
-                echo "Latest commit message: ${commitMsg}"
-
-                if (commitMsg.contains('[skip ci]')) {
-                    echo "Detected bot commit with [skip ci] — skipping build to avoid infinite trigger loop."
-                    env.SKIP_BUILD = "true"
-                    currentBuild.result = 'SUCCESS'
-                } else {
-                    env.SKIP_BUILD = "false"
-                }
-            }
-        }
-    }
-
+    // Must run FIRST — computing SKIP_BUILD below needs LAST_PUSH.
     stage('Getting Commit Id of Last Push') {
-        when {
-            expression { return env.SKIP_BUILD != 'true' }
-        }
         steps {
             script {
                 echo "bob started building"
 
-                env.LAST_PUSH = """${sh(
+                env.LAST_PUSH = sh(
                   returnStdout: true,
                   script: '''
                   set +x;
                   cat s3LastCommitPush.txt
                   '''
-                )}"""
-                
+                ).trim()
+
                 echo "last push commit Id ${env.LAST_PUSH}"
               }
           }
       }
+
+    stage('Check Commit For Skip CI') {
+        steps {
+            script {
+                // All commit subjects strictly after LAST_PUSH, up to the current tip.
+                def newCommits = sh(
+                    returnStdout: true,
+                    script: "git log ${env.LAST_PUSH}..${env.GIT_COMMIT} --pretty=format:%s"
+                ).trim()
+
+                if (newCommits == "") {
+                    echo "No new commits since last push (${env.LAST_PUSH}) — skipping build."
+                    env.SKIP_BUILD = "true"
+                    currentBuild.result = 'SUCCESS'
+                } else {
+                    def commitSubjects = newCommits.split("\n")
+                    def allSkip = commitSubjects.every { it.contains('[skip ci]') }
+
+                    echo "New commits since last push:\n${commitSubjects.collect { "  - ${it}" }.join("\n")}"
+
+                    if (allSkip) {
+                        echo "All ${commitSubjects.size()} new commit(s) are [skip ci] — skipping build."
+                        env.SKIP_BUILD = "true"
+                        currentBuild.result = 'SUCCESS'
+                    } else {
+                        echo "Found at least one non-skip-ci commit — proceeding with build."
+                        env.SKIP_BUILD = "false"
+                    }
+                }
+            }
+        }
+    }
 
     stage('Setup AWS') {
         when {
