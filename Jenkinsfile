@@ -128,9 +128,14 @@ pipeline {
         }
         steps {
             script {
+                if (env.SKIP_BUILD == 'true') {
+                    echo "SKIP_BUILD is true — skipping Setup AWS."
+                    return
+                }
+
                 // Determine if this is a production deployment
                 def isProd = (env.BRANCH_NAME == "main")
-                
+
                 // Setup AWS credentials via role assumption
                 setupAWS(env, isProd)
                 
@@ -157,9 +162,14 @@ pipeline {
         }
         steps {
             script {
+                if (env.SKIP_BUILD == 'true') {
+                    echo "SKIP_BUILD is true — skipping Uploading Assets."
+                    return
+                }
+
                 // Determine if this is a production deployment
                 def isProd = (env.BRANCH_NAME == "main")
-                
+
                 def changedFiles = """${sh(
                     returnStdout: true,
                     script: '''
@@ -277,8 +287,13 @@ pipeline {
         }
         steps {
             script {
+                if (env.SKIP_BUILD == 'true') {
+                    echo "SKIP_BUILD is true — skipping Updating S3 Push Record."
+                    return
+                }
+
                 env.SUMMARY = "Files Uploaded: ${uploadedFiles == '' ? 'NA' : uploadedFiles}"
-                
+
                 def branchName = 'main'
                 def commitMessage = "[skip ci] updating s3LastCommitPush"
                 
