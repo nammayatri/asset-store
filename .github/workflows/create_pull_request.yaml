@@ -4,6 +4,10 @@ on:
   repository_dispatch:
     types: [trigger_workflow]
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   handle_changes:
     runs-on: ubuntu-latest
@@ -23,7 +27,7 @@ jobs:
           HEAD_BRANCH=${{ github.event.client_payload.branch }}
           TITLE="Merge ${HEAD_BRANCH} into ${BASE_BRANCH}"
           BODY="Created by GitHub action"
-          TOKEN=${{ secrets.PAT_TOKEN }}
+          TOKEN=${{ secrets.GITHUB_TOKEN }}
   
           # Create pull request using curl
           curl -X POST \
